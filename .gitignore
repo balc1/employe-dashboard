@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+.venv/
+*.pyc
+.pytest_cache/
+
+# Streamlit Local Secrets & Variables
+.env
+.streamlit/
+config.yaml
+
+# Güvenli Kopya Dosyaları (Github'a atılmaz!)
+STREAMLIT_SECRETS_KOPYALA.txt
+
+# --- Veri Klasörü (TÜM EXCEL DOSYALARI DAHİL) ---
+# Tümü engellenmiştir çünkü veriler tamamen secrets'e çekildi!
+data/
+*.xlsx
+*.csv
